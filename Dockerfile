@@ -8,4 +8,4 @@ RUN npm install && npm run build
 
 EXPOSE 3000
 
-CMD ["npm", "start:prod"]
+CMD ["node", "dist/main.js"]
